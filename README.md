@@ -70,3 +70,4 @@ If you wish to modify or build the standalone APK from source:
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE).
+[Privacy Policy](https://sadyantssr.github.io/ExpenseTracker/privacy-policy.html)
