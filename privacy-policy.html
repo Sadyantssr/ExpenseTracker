@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - ExpenseTracker</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #334155;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 32px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    }
+    h1 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; font-size: 2rem; }
+    h2 { color: #1e293b; margin-top: 32px; font-size: 1.4rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }
+    h3 { color: #334155; margin-top: 24px; font-size: 1.15rem; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .highlight-box {
+      background-color: #f0fdf4;
+      border-left: 4px solid #22c55e;
+      padding: 16px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    .highlight-box-alert {
+      background-color: #eff6ff;
+      border-left: 4px solid #3b82f6;
+      padding: 16px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    footer { margin-top: 40px; font-size: 0.85rem; color: #94a3b8; text-align: center; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Privacy Policy</h1>
+  <p><strong>Last updated:</strong> November 02, 2026</p>
+  <p>This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use ExpenseTracker ("the Application", "Service", "We", "Us") and explains Your privacy rights and legal protections.</p>
+
+  <div class="highlight-box">
+    <strong>Summary for Users & Verification:</strong> ExpenseTracker is an offline-capable personal financial logging application. We do not sell your personal data, bank records, or transaction history. Data logged by the app is transmitted directly between your device and your personal Google account.
+  </div>
+
+  <h2>1. Data Collection and Usage</h2>
+  <h3>Personal Data</h3>
+  <p>When You authenticate using Google Sign-In, We collect:</p>
+  <ul>
+    <li>Your email address</li>
+    <li>Your public profile information (name and avatar)</li>
+  </ul>
+  <p>This data is used solely to authenticate your identity and link your local application session to your personal Google Drive storage.</p>
+
+  <h3>Financial & Expense Data</h3>
+  <p>The Application logs financial transaction details entered by you or detected from SMS notifications, including amounts, expense categories, payment methods, transaction timestamps, and notes. This data is written directly to a designated spreadsheet within your personal Google Drive.</p>
+
+  <h2>2. Google User Data & Limited Use Policy</h2>
+  <div class="highlight-box-alert">
+    <h3>Google Drive & Sheets Access</h3>
+    <p>ExpenseTracker requests access to the following Google API scope:</p>
+    <ul>
+      <li><code>https://www.googleapis.com/auth/drive.file</code></li>
+    </ul>
+    <p><strong>How we use this access:</strong></p>
+    <ul>
+      <li>To automatically create a dedicated spreadsheet (e.g., <em>Personal Expenses</em>) within your personal Google Drive upon initial setup.</li>
+      <li>To append new transaction rows (date, amount, category, payment mode, description) to that spreadsheet.</li>
+    </ul>
+    <p><strong>Restrictions:</strong></p>
+    <ul>
+      <li>Under the <code>drive.file</code> scope, ExpenseTracker can <strong>only</strong> access, read, and write to files that the Application itself creates. It has zero technical capability or permission to read, modify, or delete any other documents, photos, or spreadsheets in your Google Drive.</li>
+      <li>ExpenseTracker's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the <strong>Limited Use</strong> requirements.</li>
+      <li>We do not transfer or share your Google user data with third-party AI models or external data brokers.</li>
+    </ul>
+  </div>
+
+  <h2>3. SMS Permissions & Inbox Scanner</h2>
+  <p>ExpenseTracker features an optional <strong>SMS Bank Scanner</strong> module:</p>
+  <ul>
+    <li><strong>Permission Requested:</strong> <code>READ_SMS</code> / <code>RECEIVE_SMS</code>.</li>
+    <li><strong>Purpose:</strong> Used solely on-device to detect bank and payment debit SMS alerts (identifying amounts, merchants, and timestamps) so that transactions can be logged automatically without manual typing.</li>
+    <li><strong>Data Handling:</strong> All SMS parsing is performed entirely on your device. Personal SMS messages, OTPs, family conversations, and non-financial messages are completely ignored. SMS content is never transmitted to any third-party analytics server.</li>
+  </ul>
+
+  <h2>4. Usage and Device Diagnostics</h2>
+  <p>Usage Data may be collected automatically when using the Service, including device type, operating system version, and system diagnostic errors, strictly for maintaining application reliability and performance.</p>
+
+  <h2>5. Data Retention & Deletion</h2>
+  <ul>
+    <li><strong>Local Storage:</strong> You can clear cached application logs and preferences at any time through Android Settings &gt; Apps &gt; ExpenseTracker &gt; Clear Storage.</li>
+    <li><strong>Cloud Data:</strong> All your financial records reside inside your personal Google Drive account. You have full ownership and can inspect, modify, export, or permanently delete the spreadsheet at any time via <a href="https://drive.google.com" target="_blank">Google Drive</a>.</li>
+    <li><strong>Account Disconnect:</strong> You can revoke the Application's access to your Google account at any time via your <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Security Permissions</a>.</li>
+  </ul>
+
+  <h2>6. Security</h2>
+  <p>We prioritize the security of your data. The communication between ExpenseTracker and Google APIs is secured via industry-standard TLS/HTTPS encryption. We do not maintain an independent backend database storing your financial records.</p>
+
+  <h2>7. Children's Privacy</h2>
+  <p>The Service is not directed to individuals under the age of 16. We do not knowingly collect personal information from minors.</p>
+
+  <h2>8. Contact Us</h2>
+  <p>If you have any questions, feedback, or data requests regarding this Privacy Policy, please contact us:</p>
+  <ul>
+    <li><strong>Developer / Company:</strong> ExpenseTracker</li>
+    <li><strong>Location:</strong> Maharashtra, India</li>
+    <li><strong>Email:</strong> <a href="mailto:sadysadyant@gmail.com">sadysadyant@gmail.com</a></li>
+  </ul>
+
+  <footer>
+    &copy; 2026 ExpenseTracker. All rights reserved.
+  </footer>
+</div>
+
+</body>
+</html>
